@@ -4,6 +4,13 @@ version = "0.1.0"
 authors = ["biluohc <biluohc@qq.com>"]
 license = "MIT"
 
+readme = "readme.md"
+keywords = ["log_err"]
+categories = ["development-tools::debugging"]
+description = "Another env_logger wrapped."
+documentation = "https://docs.rs/mxo_env_logger"
+repository = "https://github.com/biluohc/mxo_env_logger"
+
 [[bin]]
 name="fun"
 path="src/fun.rs"
